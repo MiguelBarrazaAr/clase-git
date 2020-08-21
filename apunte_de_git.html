@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>
+apunte de git
+</title>
+</head>
+<body>
+<p>Nota: pulsa la h para ir saltando entre los temas de este apunte.</p><br>
+<h1>git</h1>
+<p>Git es un software de control de versiones, para instalarlo se debe descargar desde su página principal:<br>
+<a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
+<br>
+<h2>configuración</h2>
+<p>para configurar git después de instalarlo debemos ir a la consola y poner los siguientes comandos:<br><br>
+git config --global user.name "el nombre que queremos mostrar"<br>
+para configurar un nombre para publicar. Revisar que el nombre se escribe entre comillas.<br>
+git config --global user.email mimail@servidor.com<br>
+para configurar el e-mail.<br><br>
+
+<h2>Comandos utiles</h2>
+<p>git init:<br>
+inicializa un repositorio.<br>
+debemos estar situados en la consola en una carpeta, y al poner este comando se creará un directorio nuevo llamado .git
+<br><br>
+git status:<br>
+para ver el estado del proyecto: los archivos modificados y los que están en el stage para commitear.
+<br><br>
+git add nombreDeArchivo<br>
+para agregar un archivo al stage.<br>
+git add .<br>
+para agregar todos los archivos al stage.
+<br><br>
+git commit -m "un comentario"<br>
+para commitear los archivos que tenemos en el stage. registramos los cambios del proyecto.<br><br>
+git checkout nombreDeArchivo:<br>
+para descartar los cambios realizados en ese archivo.<br>
+git checkout .<br>
+para descartar todos los cambios realizados de los archivos del proyecto. vuelve a como estaban en el último commit registrado.
+</p>
+<br>
+</footer>
+Apunte del curso de git y github de
+<a href="mailto:miguelbarraza2015@gmail.com">Miguel Barraza</a><br>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />
+Este trabajo está bajo una 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licencia internacional Creative Commons Reconocimiento-NoComercial-SinDerivados 4.0.</a>
+</footer>
+
+</body>
+</html>
